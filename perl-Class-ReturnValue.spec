@@ -45,10 +45,10 @@ lub listy (jakie warto¶ci zwrócono).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-perl -pi -e 'BEGIN{undef $/};s/\{\s*package MY;.*$//s' Makefile.PL
+%{__perl} -pi -e 'BEGIN{undef $/};s/\{\s*package MY;.*$//s' Makefile.PL
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 # Warning: test script in this package IS broken (wrong name)
 %{?_with_tests:%{__make} test}
