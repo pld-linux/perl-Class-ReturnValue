@@ -50,7 +50,7 @@ lub listy (jakie warto¶ci zwrócono).
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 # Warning: test script in this package IS broken (wrong name)
 %{?_with_tests:%{__make} test}
