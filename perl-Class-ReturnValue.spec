@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test"
 
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	ReturnValue
+%define		pdir	Class
+%define		pnam	ReturnValue
 Summary:	Class::ReturnValue - a return-value object that may be treated as a boolean, array or object
 Summary(pl):	Class::ReturnValue - obiekt warto¶ci zwracanej, który mo¿e byæ traktowany jak warto¶æ logiczna, tablica lub obiekt
 Name:		perl-Class-ReturnValue
