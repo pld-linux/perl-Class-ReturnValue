@@ -5,27 +5,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	ReturnValue
-Summary:	%{pdir}::%{pnam} perl module
-Summary(cs):	Modul %{pdir}::%{pnam} pro Perl
-Summary(da):	Perlmodul %{pdir}::%{pnam}
-Summary(de):	%{pdir}::%{pnam} Perl Modul
-Summary(es):	Módulo de Perl %{pdir}::%{pnam}
-Summary(fr):	Module Perl %{pdir}::%{pnam}
-Summary(it):	Modulo di Perl %{pdir}::%{pnam}
-Summary(ja):	%{pdir}::%{pnam} Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	%{pdir}::%{pnam} ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul %{pdir}::%{pnam}
-Summary(pl):	Modu³ perla %{pdir}::%{pnam}
-Summary(pt_BR):	Módulo Perl %{pdir}::%{pnam}
-Summary(pt):	Módulo de Perl %{pdir}::%{pnam}
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl %{pdir}::%{pnam}
-Summary(sv):	%{pdir}::%{pnam} Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl %{pdir}::%{pnam}
-Summary(zh_CN):	%{pdir}::%{pnam} Perl Ä£¿é
+Summary:	Class::ReturnValue - a return-value object that may be treated as a boolean, array or object
+Summary(pl):	Class::ReturnValue - obiekt warto¶ci zwracanej, któru mo¿e byæ traktowany jak warto¶æ logiczna, tablica lub obiekt
 Name:		perl-Class-ReturnValue
 Version:	0.52
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d4836df29f817d839e2c87147d5efc9e
