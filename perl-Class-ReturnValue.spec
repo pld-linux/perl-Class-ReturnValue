@@ -23,7 +23,7 @@ Summary(sv):	%{pdir}::%{pnam} Perlmodul
 Summary(uk):	Модуль для Perl %{pdir}::%{pnam}
 Summary(zh_CN):	%{pdir}::%{pnam} Perl дё©И
 Name:		perl-Class-ReturnValue
-Version:	0.40
+Version:	0.51
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
