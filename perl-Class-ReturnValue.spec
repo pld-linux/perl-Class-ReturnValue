@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	ReturnValue
-Summary:	%{pdir}::%{pnam} perl module 
+Summary:	%{pdir}::%{pnam} perl module
 Summary(cs):	Modul %{pdir}::%{pnam} pro Perl
 Summary(da):	Perlmodul %{pdir}::%{pnam}
 Summary(de):	%{pdir}::%{pnam} Perl Modul
