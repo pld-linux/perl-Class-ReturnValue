@@ -1,3 +1,7 @@
+#
+# Conditional build:
+# _with_tests - perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	ReturnValue
@@ -18,8 +22,8 @@ Summary(ru):	Модуль для Perl %{pdir}::%{pnam}
 Summary(sv):	%{pdir}::%{pnam} Perlmodul
 Summary(uk):	Модуль для Perl %{pdir}::%{pnam}
 Summary(zh_CN):	%{pdir}::%{pnam} Perl дё©И
-Name:		perl-%{pdir}-%{pnam}
-Version:	0.22
+Name:		perl-Class-ReturnValue
+Version:	0.40
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
@@ -46,7 +50,8 @@ perl -pi -e 'BEGIN{undef $/};s/\{\s*package MY;.*$//s' Makefile.PL
 %build
 perl Makefile.PL
 %{__make}
-#%{__make} test
+# Warning: test script in this package IS broken (wrong name)
+%{?_with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
