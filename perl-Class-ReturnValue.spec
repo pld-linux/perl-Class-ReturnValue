@@ -8,27 +8,28 @@
 Summary:	Class::ReturnValue - a return-value object that may be treated as a boolean, array or object
 Summary(pl):	Class::ReturnValue - obiekt warto¶ci zwracanej, który mo¿e byæ traktowany jak warto¶æ logiczna, tablica lub obiekt
 Name:		perl-Class-ReturnValue
-Version:	0.52
+Version:	0.53
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d4836df29f817d839e2c87147d5efc9e
+# Source0-md5:	6db549139d16eb042f0128ff5aefe2f0
+URL:		http://search.cpan.org/dist/Class-ReturnValue/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Class::ReturnValue is a "clever" return value object that can allow code
-calling your routine to expect: a boolean value (did it fail) or a list
-(what are the return values).
+Class::ReturnValue is a "clever" return value object that can allow
+code calling your routine to expect: a boolean value (did it fail) or
+a list (what are the return values).
 
 %description -l pl
 Class::ReturnValue jest ,,m±drym'' obiektem, który pozwala, aby kod
-wywo³uj±cy Twoje funkcje oczekiwa³: warto¶ci boolowskiej (czy siê uda³o)
-lub listy (jakie warto¶ci zwrócono).
+wywo³uj±cy Twoje funkcje oczekiwa³: warto¶ci boolowskiej (czy siê
+uda³o) lub listy (jakie warto¶ci zwrócono).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
