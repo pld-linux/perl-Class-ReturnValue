@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	ReturnValue
 Summary:	Class::ReturnValue - a return-value object that may be treated as a boolean, array or object
-Summary(pl):	Class::ReturnValue - obiekt warto¶ci zwracanej, który mo¿e byæ traktowany jak warto¶æ logiczna, tablica lub obiekt
+Summary(pl.UTF-8):   Class::ReturnValue - obiekt wartoÅ›ci zwracanej, ktÃ³ry moÅ¼e byÄ‡ traktowany jak wartoÅ›Ä‡ logiczna, tablica lub obiekt
 Name:		perl-Class-ReturnValue
 Version:	0.53
 Release:	1
@@ -26,10 +26,10 @@ Class::ReturnValue is a "clever" return value object that can allow
 code calling your routine to expect: a boolean value (did it fail) or
 a list (what are the return values).
 
-%description -l pl
-Class::ReturnValue jest ,,m±drym'' obiektem, który pozwala, aby kod
-wywo³uj±cy Twoje funkcje oczekiwa³: warto¶ci boolowskiej (czy siê
-uda³o) lub listy (jakie warto¶ci zwrócono).
+%description -l pl.UTF-8
+Class::ReturnValue jest ,,mÄ…drym'' obiektem, ktÃ³ry pozwala, aby kod
+wywoÅ‚ujÄ…cy Twoje funkcje oczekiwaÅ‚: wartoÅ›ci boolowskiej (czy siÄ™
+udaÅ‚o) lub listy (jakie wartoÅ›ci zwrÃ³cono).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
