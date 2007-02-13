@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	ReturnValue
 Summary:	Class::ReturnValue - a return-value object that may be treated as a boolean, array or object
-Summary(pl.UTF-8):   Class::ReturnValue - obiekt wartości zwracanej, który może być traktowany jak wartość logiczna, tablica lub obiekt
+Summary(pl.UTF-8):	Class::ReturnValue - obiekt wartości zwracanej, który może być traktowany jak wartość logiczna, tablica lub obiekt
 Name:		perl-Class-ReturnValue
 Version:	0.53
 Release:	1
