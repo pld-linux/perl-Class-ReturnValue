@@ -8,13 +8,13 @@
 Summary:	Class::ReturnValue - a return-value object that may be treated as a boolean, array or object
 Summary(pl.UTF-8):	Class::ReturnValue - obiekt wartości zwracanej, który może być traktowany jak wartość logiczna, tablica lub obiekt
 Name:		perl-Class-ReturnValue
-Version:	0.53
+Version:	0.55
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6db549139d16eb042f0128ff5aefe2f0
+# Source0-md5:	047fbbcfd90d5c399a1feba55781329e
 URL:		http://search.cpan.org/dist/Class-ReturnValue/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
