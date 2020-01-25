@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Class
 %define		pnam	ReturnValue
 Summary:	Class::ReturnValue - a return-value object that may be treated as a boolean, array or object
